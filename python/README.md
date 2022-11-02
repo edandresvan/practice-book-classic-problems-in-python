@@ -8,12 +8,14 @@ I use Ubuntu Linux. So, if you want to run these programs, you may follow these 
 
 - Ubuntu Linux 22.04.
 - [pyenv](https://github.com/pyenv/pyenv) for Python version management.
+
     - Install these packages before installing Python:
     
     ```shell
-sudo apt update; sudo apt install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm 
-libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+    sudo apt update; sudo apt install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm 
+    libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
     ```
+
     - Install [pyenv-installer](https://github.com/pyenv/pyenv-installer) for an improved usage of pyenv: 
     
     ```shell
@@ -23,9 +25,9 @@ libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-d
     - Verify these lines were added to .bashrc and restart the terminal:
     
     ```shell
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv virtualenv-init -)"
+    export PATH="$HOME/.pyenv/bin:$PATH"
+    eval "$(pyenv init --path)"
+    eval "$(pyenv virtualenv-init -)"
     ```
     
     - Verify pyenv is working:
