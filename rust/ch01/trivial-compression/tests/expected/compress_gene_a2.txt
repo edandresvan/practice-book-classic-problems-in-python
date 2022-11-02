@@ -1,0 +1,7 @@
+Original gene has 2 bytes
+Compressed gene has 1 bytes
+Compressed gene has 2 nucleotides
+Compressed gene is
+00000000
+Decompressed gene is
+AA

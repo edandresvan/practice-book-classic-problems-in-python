@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "trivial-compression"
+version = "0.1.0"
+description = ""
+authors = ["Eder Andrés Ávila Niño <email@email.com>"]
+readme = "README.md"
+packages = [{include = "trivial_compression"}]
+
+[tool.poetry.scripts]
+main = "trivial_compression.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+setuptools = "*"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.32"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

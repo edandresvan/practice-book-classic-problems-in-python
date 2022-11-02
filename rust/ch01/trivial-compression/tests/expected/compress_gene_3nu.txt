@@ -1,0 +1,7 @@
+Original gene has 3 bytes
+Compressed gene has 1 bytes
+Compressed gene has 3 nucleotides
+Compressed gene is
+11000100
+Decompressed gene is
+TAC
