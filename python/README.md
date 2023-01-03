@@ -39,21 +39,32 @@ I use Ubuntu Linux. So, if you want to run these programs, you may follow these 
   - Install a Python version:
   
   ```shell
-  $ pyenv install 3.11
+  $ pyenv install 3.11.1
   ```
    
   - Go to the root directory whre you want to save all the projects and create a Python virtual environment:
    
   ```shell
-  $ pyenv local 3.11
+  $ pyenv local 3.11.1
   $ pyenv virtualenv classic-problems-pyenv
   ```
    
   - Install [Poetry](https://python-poetry.org/docs/#installation):
    
   ```shell
-  $ curl -sSL https://install.python-poetry.org | python3 -
+  $ curl -sSL https://install.python-poetry.org | python3 -;
+
   ```
+
+
+  Add this your shell configuration file:
+
+ ```shell
+
+export PATH="/home/edandresvan/.local/bin:$PATH"
+
+```
+
 
   - Go to a project directory.
   - Activate the Python environment:
